@@ -1,0 +1,147 @@
+body {
+  background-color: black;
+  font-family: Helvetica;
+  color: seashell;
+  font-size: 22px;
+  opacity: 0.9;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  position: fixed;
+  height: 69px;
+  border-bottom: 1px solid seashell;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  z-index: 1;
+  background-color: black;
+  padding: 0px;
+  margin: 0px;
+}
+
+.logo img {
+  height: 50px;
+}
+
+.logo {
+  margin-left: 10px;
+  flex-grow: 1;
+  display: flex;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: 69px;
+}
+
+.main_img {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-image: url("../images/img-mission-background.jpg");
+  width: 1200px;
+  height: 700px;
+}
+
+.main_img_headers {
+  background-color: black;
+  width: 100%;
+}
+
+.main_img_headers h2 {
+  margin: 0;
+  padding: 10px;
+}
+
+.main_img_headers h4 {
+  margin: 0;
+  padding: 10px;
+}
+
+nav span{
+  text-decoration: underline;
+  padding-right: 20px;
+}
+
+.tea_of_month {
+  display: inline-flex;
+  flex-direction: column;
+  position: relative;
+  top: 69px;
+  width: 1000px;
+  margin-top: 40px;
+}
+
+.tea_image img{
+  width: 300px;
+  height: 200px;
+}
+
+.tea_image {
+  padding: 0;
+  margin: 0;
+  border-width: 0px;
+}
+
+.teas_row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.locations {
+  display: inline-flex;
+  flex-direction: column;
+  position: relative;
+  top: 69px;
+  width: 1200px;
+  height: 500px;
+  background-image: url("../images/img-locations-background.jpg");
+  background-position: center;
+}
+
+.locations h2 {
+  margin: 0;
+  padding-bottom: 15px;
+}
+
+.tea_locations {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.location {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: black;
+  height: 300px;
+  width: 300px;
+  margin: 20px;
+}
+
+.contact {
+  height: 200px;
+  position: relative;
+  top:   269px;
+}
+
+.copyright {
+  display: flex;
+  position: relative;
+  top: 289px;
+  margin-left: 20px;
+}
+
+#second_row {
+  justify-content: center;
+}
+
+#second_row img {
+  padding: 25px;
+}
